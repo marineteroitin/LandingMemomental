@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="uikit/dist/js/uikit-icons.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/js/uikit-icons.min.js"></script>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memomental | FlashCard app</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Fira+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/animejs@2.2.0/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <img class="u-expanded-width u-image u-image-1" src="./src/images/test.jpg" id="banner">
+        <a href="./index.html" id="backHome">
+            <img class="mini-logo" src="./src/images/greenLogo.png" alt="logo" id="logo">
+        </a>
+        <section class="faq-section">
+            <div class="container">
+                <div class="row">
+                    <!-- ***** FAQ Start ***** -->
+                    <div class="col-md-6 offset-md-3">
+
+                        <div class="faq-title text-center pb-3">
+                            <h2>FAQ</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 offset-md-3">
+                        <div class="faq" id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="faqHeading-1">
+                                    <div class="mb-0">
+                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                            <span class="badge">1</span>Comment fonctionne la mémoire?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faqCollapse-1" class="faq-item collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Les sciences cognitives, ont pour but de décrire, d'expliquer, ou même de simuler la pensée humaine, animale ou artificielle. Elles sont composées de 6 disciplines scientifiques que nous ne détaillerons pas toutes
+                                            ici, mais seulement celles qui nous intéressent : les Neurosciences. Depuis la fin des années 1950, les neurosciences expliquent le fonctionnement de la mémoire. Nous pouvons aujourd'hui savoir quelle partie
+                                            du cerveau, nous permet de retenir tel ou tel type d'information. Ainsi il est possible de reconstituer le fonctionnement de la mémoire. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faqHeading-2">
+                                    <div class="mb-0">
+                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                            <span class="badge">2</span> Comment fonctionne Memomental ?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faqCollapse-2" class="faq-item collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Tu vas réviser tes cartes dans les deux sens afin de multiplier tes connexions neuronales lors de l'apprentissage.</p>
+                                        <p>Pourquoi ça marche ?</p>
+                                        <p>Tout simplement parce qu'il est toujours plus facile de retenir une information dans un sens que dans l'autre. Donc si tu es capable de connaître une information dans son sens le plus difficile, il sera encore plus
+                                            facile de la retenir dans son sens le plus évident.</p>
+                                        <p> Ce n'est pas tout! Tu ne vas pas retenir une information en la révisant une seule fois.. </p>
+                                        <p>Heureusement, il y a une méthode rigoureuse et optimale de révision pour que le cerveau assimile au mieux cette nouvelle information. L'intervalle de temps entre deux révisions doit se faire selon une suite mathématique
+                                            (qui pour le coup elle, est un peu <b> magique</b>.) Cette suite, c'est <b> la suite de Fibonacci</b>. Pour ceux qui ne connaissent pas cette suite ressemble à ça : 1,1,2,3,5,8
+                                        </p>
+                                        <p>
+                                            Grâce à Memomental tu sauras retenir n'importe quelle information de façon durable! Alors convaincu ? Rejoins nous! 🧠
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="site-footer ">
+        <div class="container ">
+            <div class="site-footer-inner has-top-divider ">
+                <div class="brand footer-brand ">
+                    <a href="# ">
+                        <svg width="32 " height="32 " xmlns="http://www.w3.org/2000/svg ">
+                            <title>April</title>
+                            <defs>
+                                <linearGradient x1="114.674% " y1="39.507% " x2="-52.998% " y2="39.507% "
+                                    id="logo-footer-a ">
+                                    <stop stop-color="#8D92FA " offset="0% " />
+                                    <stop stop-color="#8D92FA " stop-opacity="0 " offset="100% " />
+                                </linearGradient>
+                                <linearGradient x1="93.05% " y1="19.767% " x2="15.034% " y2="85.765% "
+                                    id="logo-footer-b ">
+                                    <stop stop-color="#FF3058 " offset="0% " />
+                                    <stop stop-color="#FF6381 " offset="100% " />
+                                </linearGradient>
+                                <linearGradient x1="32.716% " y1="-20.176% " x2="32.716% " y2="148.747% "
+                                    id="logo-footer-c ">
+                                    <stop stop-color="#FF97AA " offset="0% " />
+                                    <stop stop-color="#FF97AA " stop-opacity="0 " offset="100% " />
+                                </linearGradient>
+                            </defs>
+
+                            <img class="mini-logo " src="src/images/logoGris.png " />
+
+                        </svg>
+                    </a>
+                </div>
+                <ul class="footer-links list-reset ">
+                    <li>
+
+                        <a href="mailto:app.memomental@gmail.com?body=Salut l'équipe Memomental,">app.memomental@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="./index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">La team</a>
+                    </li>
+
+
+                </ul>
+                <ul class="footer-social-links list-reset ">
+                    <li>
+
+                        <a href="https://www.facebook.com/Memomental-106515468232487/ " uk-icon="icon: facebook "></a>
+
+
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Memomental1 " uk-icon="icon: twitter ">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/memomental_fr/ " uk-icon="icon: instagram ">
+
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="# " uk-icon="icon: linkedin ">
+
+                        </a>
+                    </li>
+
+
+
+                </ul>
+                <div class="footer-copyright ">&copy; 2021 Memomental, tous droits réservés.</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script type="text/javascript">
+    //get all faqHeading
+    const items = document.querySelectorAll(".card-header")
+    const faqs = document.querySelectorAll(".faq-item")
+    items.forEach((item, index) => {
+        item.addEventListener('mousedown', () => {
+            if (faqs[index].className == 'faq-item collapse') { //collapse pour cacher
+                faqs[index].classList.remove('collapse')
+            } else {
+                faqs[index].classList.add('collapse')
+            }
+        })
+    })
+
+    /*
+    function onClick(faq) {
+        if (faq.className == 'collapse') {
+            faq.classList.remove('collapse')
+        } else {
+            faq.classList.add('collapse')
+        }
+    }
+
+            const button1 = document.getElementById('faqHeading-1');
+        
+            console.log(button1)
+        
+            const faq1 = document.getElementById('faqCollapse-1');
+        
+            console.log(faq1)
+        
+            button1.addEventListener('mousedown', (e) => {
+                onClick(faq1)
+            })
+            */
+</script>
+
+</html>
